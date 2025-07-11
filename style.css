@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8c9d4;
+  color: #333;
+}
+
+.best__container {
+  max-width: 900px;
+  width: 100%;
+  margin: 50px auto;
+  background: rgba(253, 193, 203, 0.4);
+  padding: 2rem;
+  border-radius: 32px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  background-image: url("assets/bunny1.png"); 
+  background-size: cover;
+  background-position: center;
+}
+
+.best__title {
+  color: rgb(154, 7, 7);
+  margin-bottom: 30px;
+  font-size: 2rem;
+  /*tter-spacing: 1px;*/
+}
+
+.tasks {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+
+.tasks input {
+  width: 100%;
+  padding: 12px 45px 15px 12px;
+  border: 2px solid #f8c9d4;
+  border-radius: 12px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tasks i {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: white;
+}
+
+.task-note {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.task-box {
+  position: relative;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.task-box input {
+  width: 100%;
+  padding: 12px 45px 15px 12px;
+  border: 2px solid #f8c9d4;
+  border-radius: 12px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.task-box .edit,
+.task-box .delete {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 29px;
+  cursor: pointer;
+  color: white;
+}
+
+.task-box .edit {
+  right: 45px;
+}
+
+.task-box .delete {
+  right: 10px;
+}
+
+.bunny {
+  width: 200px;
+  display: block;
+  margin: 30px auto 0;
+}
