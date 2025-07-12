@@ -49,8 +49,7 @@ body {
 .tasks i {
   position: absolute;
   right: 5px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 5px;
   font-size: 40px;
   color: white;
 }
