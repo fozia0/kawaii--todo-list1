@@ -29,7 +29,6 @@ body {
   color: rgb(154, 7, 7);
   margin-bottom: 30px;
   font-size: 2rem;
-  /*tter-spacing: 1px;*/
 }
 
 .tasks {
@@ -80,8 +79,7 @@ body {
 .task-box .edit,
 .task-box .delete {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 5px;
   font-size: 29px;
   cursor: pointer;
   color: white;
